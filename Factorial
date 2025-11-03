@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main()
+{
+int n;
+int fact=1;
+printf("Enter a number:");
+scanf("%d",&n);
+if(n<0)
+printf("Factorical is not defined for negative number.\n");
+{
+for(int i=1;i<=n;++i)
+{ 
+fact=fact*i;
+}
+printf("Factorical of %d=%d.\n",fact);
+}
+return 0;
+}
+
+output:
+Enter a number:5
+Factorical of 5=120.
+
+code execution successful
