@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int period;
+
+printf("Ënter the period number using switchcase\n");
+scanf("%d",&period);
+
+switch(period)
+{
+    case 1:
+   printf("period 1:Maths\n");
+   printf("Timing: 7:15-8:15");
+    break;
+
+    case 2:
+    printf("period 2:Physics\n");
+    printf("Timing: 8:15-9:15");
+    break;
+
+
+    case 3:
+    printf("period 3:Linux\n");
+    printf("Timing:-10:00-11:00");
+    break;
+
+    default:
+        printf("in valid class period/.\n");
+}
+    return 0;
+}
